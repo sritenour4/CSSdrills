@@ -18,6 +18,7 @@ a:hover {
 }
 
 .boxes {
+    display: block;
     margin: 0em;
     padding: 0em;
     border-style: solid;
@@ -26,12 +27,20 @@ a:hover {
     width: 30em;
 }
 
+.images {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: white;
+}
+
 #box1 {
     background-color: purple;
 }
 
 #box2 {
     background-color: rgb(238, 255, 0);
+    position: relative;    
 }
 
 #box3 {
@@ -40,4 +49,59 @@ a:hover {
 
 #box4 {
     background-color: rgb(0, 102, 128);
+}
+h1 {
+    color: goldenrod;
+}
+
+.original {
+    color: darkblue;
+}
+
+.additional {
+    color: indigo;
+}
+
+#One {
+    color: indigo;
+}
+
+#Two {
+    color: darkblue;
+}
+
+#Three {
+    color: yellow
+}
+
+#Four {
+    color: teal;
+}
+
+#Five {
+    color: fuchsia;
+}
+
+ul {
+    color: navy;
+}
+
+.star {
+    color: orangered;
+}
+
+#wars {
+    color: seagreen;
+}
+
+#friends {
+border: 2px solid black;
+}
+
+#restaurants {
+    border: 2px solid black;
+}
+
+#places {
+    border: 2px solid black;
 }
